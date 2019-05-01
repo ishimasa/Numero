@@ -13,6 +13,11 @@
 		E1F0EE9C20E1BE17006A73F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F0EE9B20E1BE17006A73F7 /* Assets.xcassets */; };
 		E1F0EE9F20E1BE17006A73F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F0EE9D20E1BE17006A73F7 /* LaunchScreen.storyboard */; };
 		E1F0EEAA20E1BE18006A73F7 /* iNumeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEA920E1BE18006A73F7 /* iNumeroTests.swift */; };
+		E1F0EEB520E1C911006A73F7 /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEB420E1C911006A73F7 /* GameDoneViewController.swift */; };
+		E1F0EEB720E1C929006A73F7 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEB620E1C929006A73F7 /* Shuffle.swift */; };
+		E1F0EEB920E1C93C006A73F7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEB820E1C93C006A73F7 /* Game.swift */; };
+		E1F0EEBB20E1C950006A73F7 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEBA20E1C950006A73F7 /* Converter.swift */; };
+		E1F0EEBD20E21CF6006A73F7 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0EEBC20E21CF6006A73F7 /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		E1F0EEA520E1BE18006A73F7 /* iNumeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNumeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F0EEA920E1BE18006A73F7 /* iNumeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNumeroTests.swift; sourceTree = "<group>"; };
 		E1F0EEAB20E1BE18006A73F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F0EEB420E1C911006A73F7 /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
+		E1F0EEB620E1C929006A73F7 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		E1F0EEB820E1C93C006A73F7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E1F0EEBA20E1C950006A73F7 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		E1F0EEBC20E21CF6006A73F7 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +89,14 @@
 			children = (
 				E1F0EE9420E1BE16006A73F7 /* AppDelegate.swift */,
 				E1F0EE9620E1BE16006A73F7 /* ViewController.swift */,
+				E1F0EEB420E1C911006A73F7 /* GameDoneViewController.swift */,
 				E1F0EE9820E1BE16006A73F7 /* Main.storyboard */,
 				E1F0EE9B20E1BE17006A73F7 /* Assets.xcassets */,
 				E1F0EE9D20E1BE17006A73F7 /* LaunchScreen.storyboard */,
 				E1F0EEA020E1BE17006A73F7 /* Info.plist */,
+				E1F0EEB620E1C929006A73F7 /* Shuffle.swift */,
+				E1F0EEB820E1C93C006A73F7 /* Game.swift */,
+				E1F0EEBA20E1C950006A73F7 /* Converter.swift */,
 			);
 			path = iNumero;
 			sourceTree = "<group>";
@@ -91,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F0EEA920E1BE18006A73F7 /* iNumeroTests.swift */,
+				E1F0EEBC20E21CF6006A73F7 /* ConverterTests.swift */,
 				E1F0EEAB20E1BE18006A73F7 /* Info.plist */,
 			);
 			path = iNumeroTests;
@@ -197,7 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F0EEB520E1C911006A73F7 /* GameDoneViewController.swift in Sources */,
+				E1F0EEB920E1C93C006A73F7 /* Game.swift in Sources */,
+				E1F0EEB720E1C929006A73F7 /* Shuffle.swift in Sources */,
 				E1F0EE9720E1BE16006A73F7 /* ViewController.swift in Sources */,
+				E1F0EEBB20E1C950006A73F7 /* Converter.swift in Sources */,
 				E1F0EE9520E1BE16006A73F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F0EEBD20E21CF6006A73F7 /* ConverterTests.swift in Sources */,
 				E1F0EEAA20E1BE18006A73F7 /* iNumeroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
