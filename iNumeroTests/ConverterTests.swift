@@ -5,8 +5,33 @@
 //  Created by eagle two on 2018/06/26.
 //  Copyright © 2018年 isshie. All rights reserved.
 //
-        
 
+
+import XCTest
+@testable import iNumero
+
+class ConverterTests: XCTestCase {
+    var converter: Converter!
+    
+    override func setUp() {
+        super.setUp()
+        // ローマ数字変換器を表すモデル。
+        converter = Converter()
+    }
+    
+    override func tearDown() {
+        converter = nil
+        super.tearDown()
+    }
+    
+    func testConversionForOne() {
+        let result = converter.convert(1)
+        XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
+    }
+}
+
+
+/*
 import XCTest
 @testable import iNumero
 
@@ -74,3 +99,4 @@ class ConverterTests: XCTestCase {
         XCTAssertEqual(result, "MMMCMXCIX", "Conversion for 3999 is incorrect")
     }
 }
+ */
